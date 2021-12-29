@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --ff-body: "Open Sans", sans-serif;
+    --ff-heading: "Poppins", sans-serif;
+    --fw-bold: 600;
+    --fw-normal: 400;
+    --clr-primary: hsl(257, 40%, 49%);
+    --clr-secondary: #fff;
+    --clr-active: hsl(300, 69%, 71%);
+}
+
+body {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-normal);
+    background: var(--clr-primary) url("images/bg-mobile.svg") no-repeat top
+        right;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 3em 4em;
+    text-align: center;
+}
+
+.header__logo {
+    width: 11em;
+    float: left;
+}
+
+.main {
+    clear: left;
+}
+
+.main__img {
+    max-width: 100%;
+    margin: 5em 0;
+}
+
+.main__title {
+    font-family: var(--ff-heading);
+    font-weight: var(--fw-bold);
+    font-size: 2.3rem;
+}
+
+.main__paragraph {
+    font-family: var(--ff-body);
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+}
+
+.main__title,
+.main__paragraph {
+    color: var(--clr-secondary);
+    line-height: 1.5em;
+}
+
+.main__btn {
+    display: block;
+    background: var(--clr-secondary);
+    border: 0;
+    font-size: 1.3rem;
+    color: var(--clr-primary);
+    padding: 1em 6em;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 2em auto 4.5em;
+}
+
+.main__btn--active:hover,
+.main__btn--active:focus {
+    cursor: pointer;
+    background-color: var(--clr-active);
+    color: var(--clr-secondary);
+}
+
+.main__icon {
+    color: var(--clr-secondary);
+    font-size: 1.4rem;
+    border: 1px solid var(--clr-secondary);
+    border-radius: 50%;
+}
+
+.main__icon:nth-child(1) {
+    padding: 0.5em 0.65em;
+}
+
+.main__icon:nth-child(2) {
+    padding: 0.5em;
+}
+
+.main__icon:nth-child(3) {
+    padding: 0.5em 0.55em;
+}
+
+.main__icon--active:hover,
+.main__icon--active:focus {
+    cursor: pointer;
+    border-color: var(--clr-active);
+    color: var(--clr-active);
+}
+
+.main__icon + .main__icon {
+    margin-left: 0.7em;
+}
+
+@media (min-width: 800px) {
+    body {
+        background: var(--clr-primary) url("images/bg-desktop.svg") no-repeat;
+        padding: 4em 6em;
+        text-align: left;
+    }
+    .header__logo {
+        width: 17em;
+    }
+    .main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10em;
+    }
+    .main__img {
+        width: 65%;
+        max-height: 430px;
+        margin: 0;
+    }
+    .main__content {
+        width: 31%;
+    }
+    .main__title {
+        font-size: 3.5rem;
+        margin-top: 1.3em;
+    }
+    .main__btn {
+        font-size: 1.5rem;
+        padding: 1em 3.3em;
+        margin: 2em 0 0;
+    }
+    .main__icons {
+        float: right;
+        margin-top: 165px;
+    }
+    .main__icon {
+        font-size: 1.6rem;
+    }
+    .main__icon + .main__icon {
+        margin-left: 0.8em;
+    }
+}
+
+@media (min-width: 1120px) {
+    .main__img {
+        width: 53%;
+        max-height: 475px;
+    }
+    .main__content {
+        width: 43%;
+    }
+}
