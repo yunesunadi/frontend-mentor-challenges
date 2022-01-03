@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --ff-body: "Karla", sans-serif;
+    --fw-bold: 700;
+    --fw-normal: 400;
+    --fs-screen-small: 1.2rem;
+    --fs-screen-big: 1.6rem;
+    --clr-primary: hsl(179, 62%, 43%);
+    --clr-primary-light: hsla(179, 62%, 43%, 0.8);
+    --clr-secondary: hsl(71, 73%, 54%);
+    --clr-third: hsl(218, 22%, 67%);
+    --clr-light: #fff;
+    --clr-bg: hsl(204, 43%, 93%);
+    --bd-radius: 5px;
+    --pd-screen-small: 1.8em 1.7em;
+    --pd-screen-big: 2.2em 2em;
+}
+
+body {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-normal);
+    font-size: var(--fs-screen-small);
+    background-color: var(--clr-bg);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 5em 2em;
+}
+
+.main {
+    border-radius: var(--bd-radius);
+    box-shadow: 1px 1px 8px rgb(0, 0, 0, 0.3);
+}
+
+.main__info-section {
+    background-color: #fff;
+    border-top-left-radius: var(--bd-radius);
+    border-top-right-radius: var(--bd-radius);
+    padding: var(--pd-screen-small);
+}
+
+.main__title {
+    font-size: 1.6rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary);
+}
+
+.main__secondary-title {
+    font-size: 1.35rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-secondary);
+    margin: 1.5em 0 1em;
+}
+
+.main__content {
+    color: var(--clr-third);
+    line-height: 1.7em;
+}
+
+.main__subscription-left {
+    background-color: var(--clr-primary);
+    padding: var(--pd-screen-small);
+    color: var(--clr-light);
+}
+
+.main__subscription-title {
+    font-weight: var(--fw-bold);
+    font-size: 1.4rem;
+}
+
+.main__price {
+    display: flex;
+    align-items: center;
+    margin: 1.3em 0 0.8em;
+}
+
+.main__dollar-price {
+    font-weight: var(--fw-bold);
+    font-size: 2.3rem;
+    padding-right: 0.5em;
+}
+
+.main__duration {
+    opacity: 0.7;
+}
+
+.main__price-info {
+    margin-bottom: 2em;
+}
+
+.main__btn {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--clr-secondary);
+    color: var(--clr-light);
+    font-weight: var(--fw-bold);
+    padding: 1em 0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.5);
+}
+
+.main__subscription-right {
+    background-color: var(--clr-primary-light);
+    padding: var(--pd-screen-small);
+    color: var(--clr-light);
+    border-bottom-left-radius: var(--bd-radius);
+    border-bottom-right-radius: var(--bd-radius);
+}
+
+.main__why-us-title {
+    font-size: 1.6rem;
+    font-weight: var(--fw-bold);
+    margin-bottom: 1.3em;
+}
+
+.main__why-us-content {
+    margin-bottom: 0.5em;
+    opacity: 0.7;
+}
+
+.main__why-us-content:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+    body {
+        font-size: var(--fs-screen-big);
+        padding: 0;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+    .main {
+        width: 90%;
+    }
+    .main__info-section {
+        padding: var(--pd-screen-big);
+    }
+    .main__title {
+        font-size: 2rem;
+    }
+    .main__secondary-title {
+        font-size: 1.6rem;
+        margin-bottom: 0.5em;
+    }
+    .main__content {
+        line-height: 1.5em;
+    }
+    .main__subscription-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main__subscription-left {
+        grid-column: 1 / 2;
+        padding: var(--pd-screen-big);
+        border-bottom-left-radius: var(--bd-radius);
+    }
+    .main__subscription-right {
+        grid-column: 2 / -1;
+        border-bottom-left-radius: 0;
+    }
+    .main__subscription-title {
+        font-size: 1.6rem;
+    }
+    .main__dollar-price {
+        font-size: 2.8rem;
+    }
+    .main__btn {
+        font-size: 1.5rem;
+    }
+    .main__subscription-right {
+        padding: var(--pd-screen-big);
+    }
+}
+
+@media (min-width: 768px) {
+    .main {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .main {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main {
+        width: 44%;
+    }
+}
