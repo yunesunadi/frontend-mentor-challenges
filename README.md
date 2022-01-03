@@ -3,3 +3,5 @@
 Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 
 1. Huddle landing page with a single introductory section [[Live Preview](https://huddle-landing-page-with-a-single-introductory-section-orcin.vercel.app/)]
+
+2. Single price grid component [[Live Preview](https://single-price-grid-component-sable-six.vercel.app/)]
