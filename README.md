@@ -7,3 +7,5 @@ Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 2. Single price grid component [[Live Preview](https://single-price-grid-component-sable-six.vercel.app/)]
 
 3. Four card feature section [[Live Preview](https://four-card-feature-section-ashen-two.vercel.app/)]
+
+4. Social proof section [[Live Preview](https://social-proof-section-site.netlify.app/)]
