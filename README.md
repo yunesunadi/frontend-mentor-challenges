@@ -9,3 +9,5 @@ Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 3. Four card feature section [[Live Preview](https://four-card-feature-section-ashen-two.vercel.app/)]
 
 4. Social proof section [[Live Preview](https://social-proof-section-site.netlify.app/)]
+
+5. Profile card component [[Live Preview](https://profile-card-component-site.netlify.app/)]
