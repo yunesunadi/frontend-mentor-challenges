@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 1.8rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("images/bg-pattern-top.svg") calc(50% - 510px)
+            calc(50% - 390px) no-repeat,
+        url("images/bg-pattern-bottom.svg") calc(50% + 485px) calc(50% + 485px)
+            no-repeat,
+        hsl(185, 75%, 39%);
+}
+
+.container {
+    padding: 0 1.3em;
+}
+
+.profile-card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card__bg {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile-card__img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: -3em 0 1em;
+}
+
+.profile-card__info {
+    border-bottom: 1px solid rgb(150, 150, 150, 0.3);
+}
+
+.profile-card__name {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 0.6em;
+}
+
+.profile-card__age {
+    margin-left: 0.3em;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.profile-card__location {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    margin-bottom: 2em;
+}
+
+.profile-card__social {
+    padding: 1.3em 1.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-card__social-count {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.profile-card__social-info {
+    display: block;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 1.05rem;
+    letter-spacing: 0.1em;
+    padding-top: 0.8em;
+}
