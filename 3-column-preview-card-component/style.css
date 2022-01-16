@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --a: hsl(31, 77%, 52%);
+    --b: hsl(184, 100%, 22%);
+    --c: hsl(179, 100%, 13%);
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 7em 2em;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.card__item {
+    padding: 4em;
+}
+
+.card__item--bright-orange {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card__item--dark-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card__item--darker-cyan {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card__img {
+    width: 50px;
+    margin-bottom: 2.5em;
+}
+
+.card__title {
+    font-size: 3rem;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 0.8em;
+}
+
+.card__content {
+    font-size: 1.3rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.75em;
+    margin-bottom: 1.7em;
+}
+
+.card__btn {
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.85em 1.8em;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.card__btn--bright-orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.card__btn--dark-cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.card__btn--darker-cyan {
+    color: hsl(179, 100%, 13%);
+}
+
+.card__btn--active:hover {
+    cursor: pointer;
+    outline: 2px solid hsl(0, 0%, 95%);
+    background-color: inherit;
+    color: hsl(0, 0%, 95%);
+}
+
+@media (min-width: 768px) {
+    .card__list {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card__item {
+        padding: 4.5em;
+    }
+    .card__item--bright-orange {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
+    .card__item--darker-cyan {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
+    }
+    .card__img {
+        width: 55px;
+        margin-bottom: 3.5em;
+    }
+    .card__title {
+        font-size: 3.5rem;
+        margin-bottom: 0.7em;
+    }
+    .card__content {
+        font-size: 1.5rem;
+        line-height: 1.75em;
+        margin-bottom: 5em;
+    }
+    .card__btn {
+        font-size: 1.5rem;
+        padding: 0.85em 2em;
+        border-radius: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        padding: 16em 0 13em;
+    }
+    .card__list {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card__list {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .card__list {
+        width: 62.5%;
+    }
+}
