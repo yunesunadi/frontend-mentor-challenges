@@ -11,3 +11,5 @@ Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 4. Social proof section [[Live Preview](https://social-proof-section-site.netlify.app/)]
 
 5. Profile card component [[Live Preview](https://profile-card-component-site.netlify.app/)]
+
+6. 3-column preview card component [[Live Preview](https://3-column-preview-card-component-site.netlify.app/)]
