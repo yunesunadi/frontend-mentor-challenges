@@ -13,3 +13,5 @@ Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 5. Profile card component [[Live Preview](https://profile-card-component-site.netlify.app/)]
 
 6. 3-column preview card component [[Live Preview](https://3-column-preview-card-component-site.netlify.app/)]
+
+7. Stats preview card component [[Live Preview](https://stats-preview-card-component-challenge-site.netlify.app/)]
