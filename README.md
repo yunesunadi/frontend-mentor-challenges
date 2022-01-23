@@ -17,3 +17,5 @@ Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 7. Stats preview card component [[Live Preview](https://stats-preview-card-component-challenge-site.netlify.app/)]
 
 8. Order summary component [[Live Preview](https://order-summary-component-site.netlify.app/)]
+
+9. NFT preview card component [[Live Preview](https://nft-preview-card-component-site.netlify.app/)]
