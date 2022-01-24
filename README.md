@@ -19,3 +19,5 @@ Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 8. Order summary component [[Live Preview](https://order-summary-component-site.netlify.app/)]
 
 9. NFT preview card component [[Live Preview](https://nft-preview-card-component-site.netlify.app/)]
+
+10. QR code component [[Live Preview](https://qr-code-component-site.netlify.app/)]
