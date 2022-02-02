@@ -21,3 +21,5 @@ Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 9. NFT preview card component [[Live Preview](https://nft-preview-card-component-site.netlify.app/)]
 
 10. QR code component [[Live Preview](https://qr-code-component-site.netlify.app/)]
+
+11. Huddle landing page with curved sections [[Live Preview](https://huddle-landing-page-with-curved-sections-site.netlify.app/)]
