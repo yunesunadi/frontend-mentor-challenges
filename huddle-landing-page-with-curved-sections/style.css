@@ -696,7 +696,7 @@ body {
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
     .footer {
         grid-template-columns: 60% 40%;
         padding: 8em 2em 6em 7em;
@@ -705,13 +705,19 @@ body {
         width: 73%;
     }
     .footer__subscribe-input {
-        width: 63%;
+        width: 60%;
     }
     .footer__subscribe-btn {
         margin-top: -65px;
     }
     .footer__info {
         width: 55%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .footer__subscribe-input {
+        width: 63%;
     }
     .footer__info-content {
         width: 77%;
