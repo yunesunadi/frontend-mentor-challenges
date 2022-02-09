@@ -23,3 +23,5 @@ Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 10. QR code component [[Live Preview](https://qr-code-component-site.netlify.app/)]
 
 11. Huddle landing page with curved sections [[Live Preview](https://huddle-landing-page-with-curved-sections-site.netlify.app/)]
+
+12. Fylo landing page with two column layout [[Live Preview](https://fylo-landing-page-with-two-column-layout-site.netlify.app/)]
