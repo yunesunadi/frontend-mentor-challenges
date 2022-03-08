@@ -27,3 +27,5 @@ Solutions for [Frontend Mentor](https://www.frontendmentor.io/) challenges
 12. Fylo landing page with two column layout [[Live Preview](https://fylo-landing-page-with-two-column-layout-site.netlify.app/)]
 
 13. Huddle landing page with alternating feature blocks [[Live Preview](https://huddle-landing-page-with-alternating-feature-blocks-site.netlify.app/)]
+
+14. Clipboard landing page [[Live Preview](https://clipboard-landing-page-site.netlify.app/)]
